@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(176,176,176,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+}
+
+#quemsoueu{
+    text-align: center;   
+}
+#linha{
+    border-bottom: 1px solid rgba(209, 209, 209, 0.7);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#cabecalhoProdutos{
+    text-align: center;
+}
+
+#meusprodutos{
+    display: grid;
+    grid-template-columns:minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.produto{
+    border: 1px solid rgba(209, 209, 209, 0.7);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 1%;
+    margin-right: 1%;    
+}
+
+h3{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #meusprodutos{
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .produto{
+        margin-bottom: 15px;
+    }
+}
